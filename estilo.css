@@ -1,0 +1,103 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+  margin: 40px auto;
+  max-width: 800px;
+  padding: 20px;
+  line-height: 1.5;
+}
+
+/* Encabezado con nombre y contacto */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 5px;
+  color: #032c58;
+}
+
+header p {
+  font-size: 1rem;
+  color: #6c757d;
+  margin: 2px 0;
+}
+
+/* Secciones del CV */
+section {
+  margin-bottom: 25px;
+}
+
+/* Títulos de secciones */
+section h2 {
+  border-bottom: 2px solid #032c58;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  color: #032c58;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.4rem;
+}
+
+/* Listas para experiencia y educación */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 15px;
+}
+
+/* Detalles dentro de cada experiencia/educación */
+.job-title, .degree {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #343a40;
+}
+
+.company, .school {
+  font-style: italic;
+  color: #6c757d;
+}
+
+.dates {
+  float: right;
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+/* Limpia floats */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Habilidades con barra de progreso */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill {
+  background-color: #e9ecef;
+  border-radius: 20px;
+  padding: 5px 15px;
+  font-size: 0.9rem;
+  color: #495057;
+}
+
+/* Opcional: estilos para enlaces */
+a {
+  color: #032c58;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
